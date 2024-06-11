@@ -1,1 +1,22 @@
 @charset "UTF-8";
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer p .roda {
+    margin: 5px 15px;
+    color: #000000;
+}
+
+footer .roda {
+    text-decoration: none;
+    padding: 3px;
+}
+
+.roda:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
